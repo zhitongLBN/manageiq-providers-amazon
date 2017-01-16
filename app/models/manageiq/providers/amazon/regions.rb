@@ -65,6 +65,11 @@ module ManageIQ
           :name        => "us-gov-west-1",
           :hostname    => "ec2.us-gov-west-1.amazonaws.com",
           :description => "GovCloud (US)",
+        },
+        "ca-central-1"  => {
+          :name        => "ca-central-1",
+          :hostname    => "ec2.ca-central-1.amazonaws.com",
+          :description => "Canada (Central)",
         }
       }
 
